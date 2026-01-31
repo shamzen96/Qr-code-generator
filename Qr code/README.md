@@ -14,14 +14,7 @@ A smart Python-based QR code generator that handles both URLs and plain text inp
 
 ## 🚀 Usage
 
-### 1. Install Dependencies
 
-```bash
-pip install qrcode[pil]
-
-
-### 2. Run the Script
-python qr_generator.py
 
     It will prompt you like:
     🔷 Smart QR Code Generator 🔷
@@ -30,7 +23,7 @@ python qr_generator.py
 
 3. Output
 
-The script will generate a file named qr_output.png in the same directory.
+The script will generate Qr on the web page
 
 ⚙️ Example:- 
 URL input:
@@ -46,22 +39,12 @@ Enter a title: Greeting
 Enter a description: A cheerful message
 ✅ QR Code saved as qr_output.png
 
-🧠 Future Features (Optional Ideas):
- Add CLI flags (--url, --text, --title, --desc)
 
- Bulk QR generation from .csv or .json
 
- REST API version with Flask or FastAPI
-
- Save history/log of generated codes
-
- 📁 File Info:-
- qr_generator.py – Main script
-
-qr_output.png – Generated output file (overwrites each time)
 
 
 👨‍💻 Author:-
 Shivam raj  — Ethical Hacker, Bug Hunter, Creator of clever scripts and smarter tools.
 📡 “In code we trust. In logic we demand.”
+
 
